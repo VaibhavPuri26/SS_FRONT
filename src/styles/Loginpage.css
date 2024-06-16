@@ -1,0 +1,116 @@
+.login-page {
+  height: 100vh;
+  position: relative;
+  background-color: cadetblue;
+}
+
+.login-form {
+  width: 450px;
+  min-height: 500px;
+  height: auto;
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 9px 50px hsla(20, 67%, 75%, 0.31);
+  padding: 2%;
+  background-image: linear-gradient(-225deg, #E3FDF5 50%, #FFE6FA 50%);
+}
+
+.login-form h1 {
+  font-size: 250%;
+  font-family: 'Playfair Display', serif;
+  color: #4070f4; /* Changed color to blue */
+  text-align: center;
+  margin: 2% auto 10% auto;
+}
+
+.login-form .con {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.input-item {
+  width: 100%;
+  text-align: center; /* Center the text inside the input items */
+  margin-bottom: 10px; /* Add some margin between input items */
+}
+
+.input-item button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.input-item input {
+  height: 60px; /* Increased height */
+  width: 100%;
+  outline: none;
+  padding: 0 15px;
+  font-size: 20px; /* Increased font size */
+  font-weight: 400;
+  color: #333;
+  border: 1.5px solid #C7BEBE;
+  border-bottom-width: 2.5px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.input-item input:focus,
+.input-item input:valid {
+  border-color: #4070f4;
+}
+
+#eye {
+  background: #fff;
+  color: #333;
+  margin: 5.9px 0 0 0;
+  margin-left: -20px;
+  padding: 15px 9px 19px 0px;
+  border-radius: 0px 5px 5px 0px;
+  float: right;
+  position: relative;
+  right: 1%;
+  top: -.2%;
+  z-index: 5;
+  cursor: pointer;
+}
+
+button {
+  display: inline-block;
+  color: #252537;
+  width: 280px;
+  height: 50px;
+  padding: 0 20px;
+  background: #fff;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.2s linear;
+  margin: 7% auto;
+  letter-spacing: 0.05em;
+}
+
+button:hover {
+  transform: translatey(3px);
+  box-shadow: none;
+}
+
+button:hover {
+  animation: ani9 0.4s ease-in-out infinite alternate;
+}
+
+@keyframes ani9 {
+  0% {
+      transform: translateY(3px);
+  }
+  100% {
+      transform: translateY(5px);
+  }
+}

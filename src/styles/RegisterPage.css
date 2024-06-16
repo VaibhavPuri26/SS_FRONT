@@ -1,0 +1,58 @@
+.register-page {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to right, #cfd9df, #e2ebf0); /* Soft gradient */
+
+
+}
+
+.register-form {
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 20px;
+  max-width: 430px; /* Adjusted max-width to match the design */
+  width: 100%;
+}
+
+.register-form h2 {
+  margin-top: 10px;
+  text-align: center;
+  font-weight: bold;
+  color: #4070f4; /* Changed color to match the design */
+}
+
+.register-form a {
+  color: #4070f4 !important; /* Changed color to match the design */
+}
+
+.register-form a:hover {
+  color: black !important;
+}
+
+.register-form button {
+  background-color: #4070f4; /* Changed background color to match the design */
+  color: white;
+}
+
+.register-form input:focus {
+  border: 1px solid #4070f4 !important; /* Changed border color to match the design */
+  color: #4070f4;
+}
+
+.register-form button:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 767.98px) {
+  .register-page {
+      padding: 20px; /* Add padding on smaller screens */
+  }
+
+  .register-form {
+      width: 100%; /* Ensure the form takes full width on smaller screens */
+  }
+}
